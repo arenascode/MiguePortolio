@@ -233,7 +233,7 @@ body {
         flex-direction: column;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
         #hero .heroText .heroTitle small {
-          font-size: 17px;
+          font-size: 1.1rem;
           margin-top: 0.5rem;
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
       #hero .heroText .separator {
@@ -251,7 +251,7 @@ body {
         #hero .heroText .body p {
           text-align: center;
           font-family: Inter;
-          font-size: 1.125rem;
+          font-size: 1.25rem;
           font-style: normal;
           font-weight: 400;
           line-height: 1.6rem; }
@@ -317,21 +317,18 @@ body {
       #hero .heroCTAs a:hover {
         cursor: pointer; }
   #about {
-    margin-top: 18rem;
     display: grid;
     place-content: center;
-    height: 25.3125rem;
-    padding: 3rem 2rem;
+    padding: 1rem;
+    padding-left: 4rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    align-self: stretch; }
+    gap: 1rem; }
     #about .about_heading {
       display: grid;
       place-content: center;
-      flex-direction: column;
-      justify-content: end; }
+      flex-direction: column; }
       #about .about_heading .headingTwo {
         display: flex;
         padding: 0.625rem;
@@ -356,26 +353,23 @@ body {
         margin: auto;
         margin-bottom: 1rem; }
     #about .about_body {
-      width: 130%;
       display: flex;
       flex-direction: column;
-      padding: 0.625rem;
       align-items: center; }
       #about .about_body p {
         margin: 0.5rem;
         flex: 1 0 0;
         text-align: center;
         font-family: Inter;
-        font-size: 1.125rem;
+        font-size: 1.3rem;
         font-style: normal;
         font-weight: 400;
         line-height: 1.6rem; }
     #about .stack {
       text-align: center;
-      margin-left: 9rem;
       letter-spacing: 2px; }
     #about .separator {
-      margin-left: 9rem;
+      margin-left: 8.4rem;
       width: 12rem;
       height: 0.05rem;
       background: var(--color-separator);
@@ -386,8 +380,8 @@ body {
       gap: 3rem;
       margin-top: 2rem;
       flex-wrap: wrap;
-      padding-left: 5rem;
-      width: 95%; }
+      padding-left: 2.5rem;
+      width: 90vw; }
       #about .about_techStackList li {
         display: flex;
         flex-direction: column;
@@ -406,13 +400,12 @@ body {
     padding: 1.2rem 2rem;
     flex-direction: column;
     align-items: center;
-    gap: 1.5625rem;
-    margin-top: 19rem; }
+    gap: 1.5625rem; }
     #projects .projects_heading {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-left: auto; }
+      margin-left: 2.5rem; }
       #projects .projects_heading .headingThree {
         display: flex;
         padding: 0.625rem;
@@ -436,7 +429,7 @@ body {
         margin-bottom: 1rem; }
     #projects .projectsGrid {
       margin-top: 2rem;
-      margin-left: 7rem;
+      margin-left: 5rem;
       display: grid;
       flex-direction: column;
       align-items: flex-start;
@@ -468,7 +461,7 @@ body {
               color: white;
               opacity: 0;
               transition: ease-in-out 0.4s;
-              width: 98%;
+              width: 100%;
               height: 32%;
               text-align: center; }
             #projects .projectsGrid .projectsFrame .projectCard .cardImg:hover .projectHover {
@@ -481,9 +474,9 @@ body {
               margin-right: 12px;
               padding-top: 14.5px;
               padding-right: 10px;
-              margin-top: 25px;
+              margin-top: 21px;
               width: 97.8%;
-              height: 37%;
+              height: 36%;
               display: block;
               position: absolute;
               top: 16%;
@@ -496,11 +489,13 @@ body {
               object-position: top;
               border-radius: 2%; }
             #projects .projectsGrid .projectsFrame .projectCard .cardImg:hover .projectHover2 {
-              width: 98.5%; }
+              width: 98.5%;
+              height: 34.5%;
+              margin-top: 16px; }
             #projects .projectsGrid .projectsFrame .projectCard .cardImg:hover .projectHover3 {
               width: 98.5%;
-              height: 35%;
-              margin-top: 16.5px; }
+              height: 32.5%;
+              margin-top: 9px; }
             #projects .projectsGrid .projectsFrame .projectCard .cardImg:hover .projectHover4 {
               width: 98.6%;
               height: 38%;
@@ -546,7 +541,7 @@ body {
             gap: 0.625rem;
             align-self: stretch; }
             #projects .projectsGrid .projectsFrame .projectCard .cardBody p {
-              font-size: 1.125rem;
+              font-size: 1.2rem;
               font-style: normal;
               font-weight: 400;
               line-height: normal;
