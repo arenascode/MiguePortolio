@@ -9,7 +9,9 @@ let walk = 25;
 function showShadow(e) {
   const { offsetWidth: width, offsetHeight: height } = navBar;
   let { offsetX: x, offsetY: y } = e;
-
+  if (document.body.offsetWidth <= 480) {
+    return
+  }
   if (this !== e.target) {
     x = x + e.target.offsetLeft;
     y = y + e.target.offsetTop;
@@ -36,10 +38,8 @@ const navMenuMobile = document.querySelector(".navBar_Mobile");
 
 const closeModalBtn = document.querySelector(".closeModalBtn");
 
-console.log(closeModalBtn);
 
 function showModalMenu() {
-  console.log("hello!");
   navMenuMobile.style.display = "block";
   setTimeout(() => {
     navMenuMobile.style.opacity = "1";
@@ -47,7 +47,6 @@ function showModalMenu() {
 }
 
 function closeModal() {
-  console.log(`hiii`);
   navMenuMobile.style.opacity = "0";
   setTimeout(() => {
     navMenuMobile.style.display = "none";
