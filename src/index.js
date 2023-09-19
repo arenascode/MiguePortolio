@@ -105,7 +105,7 @@ if (form instanceof HTMLFormElement) {
       },
     });
 
-    fetch("http://localhost:8080/api/form", {
+    fetch("https://backendmigueportfolio-production.up.railway.app/api/form", {
       method: "POST",
       body: JSON.stringify(dataToSend),
       headers: { "content-type": "application/json" },

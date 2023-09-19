@@ -10,9 +10,7 @@ body {
   font-family: var(--Font-family);
   margin: 0;
   padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  overflow-x: hidden; }
+  box-sizing: border-box; }
 
 @media (min-width: 375px) and (max-width: 743px) {
   body {
