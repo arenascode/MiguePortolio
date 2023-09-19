@@ -108,7 +108,7 @@ if (form instanceof HTMLFormElement) {
     fetch("https://backendmigueportfolio-production.up.railway.app/api/form", {
       method: "POST",
       body: JSON.stringify(dataToSend),
-      headers: { "content-type": "application/json" },
+      headers: { "Content-Type": "application/json" },
     })
       .then((res) => {
         if (res.status == 200) {
